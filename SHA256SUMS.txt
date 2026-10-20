@@ -1,0 +1,1 @@
+05a3c346d6f5f8cdd462a92468b46f7b4e6010e401ba3b60d49fac04b42ea8d8  Vertere-0.3.0-Apple-Silicon.pkg
