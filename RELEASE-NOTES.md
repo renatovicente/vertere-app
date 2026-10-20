@@ -1,10 +1,7 @@
-# Vertere 0.3.0 — distribuição experimental
+# Vertere 0.3.1 — ícone e instalador atualizados
 
-- Instalador para Apple Silicon; alvo de compilação macOS 15 ou posterior.
-- Aplicativo com runtimes incorporados, sem dependência da pasta do desenvolvedor.
-- Download inicial de aproximadamente 6,3 GB de modelos, com retomada e verificação SHA-256.
-- Oito idiomas nos menus; francês → português preserva o perfil previamente medido.
-- Captura pelo microfone padrão e legendas configuráveis sobre apresentações.
-- Título: “Sua apresentação, em outras línguas.”
+- Novo ícone Vertere com V branco e azul e linhas de legenda, seguindo a identidade PSKR.
+- Ícone incorporado ao aplicativo macOS e à tela de boas-vindas do instalador.
+- Runtimes locais e download inicial de modelos mantidos.
 
-Aplicativo com assinatura ad hoc; pacote sem certificado Developer ID Installer e sem notarização Apple. Instalação em outro Mac e operação de ponta a ponta ainda não avaliadas. M4 de 16 GB não homologado.
+Versão experimental: assinatura ad hoc, sem Developer ID Installer ou notarização Apple. M4 com 16 GB ainda não homologado. Sem nova avaliação de captura ou tradução nesta versão.
