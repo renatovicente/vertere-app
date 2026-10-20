@@ -1,7 +1,9 @@
-# Vertere 0.3.1 — ícone e instalador atualizados
+# Vertere 0.3.2 — correções de instalação
 
-- Novo ícone Vertere com V branco e azul e linhas de legenda, seguindo a identidade PSKR.
-- Ícone incorporado ao aplicativo macOS e à tela de boas-vindas do instalador.
-- Runtimes locais e download inicial de modelos mantidos.
+- Retomada de download calcula apenas os bytes restantes, sem contar novamente o parcial já armazenado.
+- Arquivos completos válidos são aproveitados mesmo com pouco espaço livre; arquivos corrompidos continuam rejeitados.
+- Ícone incluído no pacote e declarado para as aparências clara e escura do Installer; renderização em modo escuro confirmada.
+- Verificação automática dos recursos do `.pkg` passa a fazer parte do build.
+- QA: 30 testes do pipeline e 10 de preparação passaram no código e nos módulos extraídos do instalador.
 
-Versão experimental: assinatura ad hoc, sem Developer ID Installer ou notarização Apple. M4 com 16 GB ainda não homologado. Sem nova avaliação de captura ou tradução nesta versão.
+Versão experimental. Pacote ainda sem assinatura Developer ID Installer e sem notarização Apple. Não houve nova avaliação de inferência, microfone ou M4 com 16 GB.

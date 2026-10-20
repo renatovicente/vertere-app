@@ -8,9 +8,9 @@ Este repositório distribui somente o instalador compilado, instruções e aviso
 
 ## Download
 
-[Baixar Vertere 0.3.1 para Apple Silicon (.pkg)](https://github.com/renatovicente/vertere-app/releases/download/v0.3.1/Vertere-0.3.1-Apple-Silicon.pkg)
+[Baixar Vertere 0.3.2 para Apple Silicon (.pkg)](https://github.com/renatovicente/vertere-app/releases/download/v0.3.2/Vertere-0.3.2-Apple-Silicon.pkg)
 
-[Todos os arquivos da versão e checksum SHA-256](https://github.com/renatovicente/vertere-app/releases/tag/v0.3.1)
+[Todos os arquivos da versão e checksum SHA-256](https://github.com/renatovicente/vertere-app/releases/tag/v0.3.2)
 
 **Versão experimental, sem notarização Apple.** O aplicativo tem assinatura local ad hoc; o pacote não tem assinatura Developer ID Installer. O macOS pode bloquear ou solicitar autorização para a instalação/abertura. Se você decidiu instalar esta versão, use as opções apresentadas pelo macOS em Ajustes do Sistema → Privacidade e Segurança. Não é necessário desativar globalmente as proteções do sistema.
 
