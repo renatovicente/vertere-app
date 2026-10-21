@@ -8,9 +8,9 @@ Este repositório distribui somente o instalador compilado, instruções e aviso
 
 ## Download
 
-[Baixar Vertere 0.7.0 para Apple Silicon (.pkg)](https://github.com/renatovicente/vertere-app/releases/download/v0.7.0/Vertere-0.7.0-Apple-Silicon.pkg)
+[Baixar Vertere 0.7.1 para Apple Silicon (.pkg)](https://github.com/renatovicente/vertere-app/releases/download/v0.7.1/Vertere-0.7.1-Apple-Silicon.pkg)
 
-[Todos os arquivos da versão e checksum SHA-256](https://github.com/renatovicente/vertere-app/releases/tag/v0.7.0)
+[Todos os arquivos da versão e checksum SHA-256](https://github.com/renatovicente/vertere-app/releases/tag/v0.7.1)
 
 **Versão experimental, sem notarização Apple.** O aplicativo tem assinatura local ad hoc; o pacote não tem assinatura Developer ID Installer. O macOS pode bloquear ou solicitar autorização para a instalação/abertura. Se você decidiu instalar esta versão, use as opções apresentadas pelo macOS em Ajustes do Sistema → Privacidade e Segurança. Não é necessário desativar globalmente as proteções do sistema.
 
@@ -47,6 +47,6 @@ Os pesos são baixados das fontes acima, não estão no instalador. Os avisos de
 
 Encerre o Vertere e remova o aplicativo de Aplicativos. Para liberar o espaço dos modelos, remova também `~/Library/Application Support/Vertere/Models` pelo Finder. As preferências de aparência e idiomas são armazenadas pelo macOS separadamente.
 
-## Novidades 0.7.0
+## Novidades 0.7.1
 
-Velocidade das legendas com três modos, independente do ritmo de leitura. Equilibrado é o padrão para novas preferências; escolhas anteriores são preservadas. Blocos menores e agrupamento melhorado. O modo rápido é experimental e não garante menor atraso visível. [Notas da versão](RELEASE-NOTES.md) · [QA do pacote](QA-0.7.0.md).
+Velocidade das legendas com três modos, independente do ritmo de leitura. Equilibrado é o padrão para novas preferências; escolhas anteriores são preservadas. Blocos menores e agrupamento melhorado. O modo rápido usa grupos de até 4 s e reduziu o atraso de exibição no ensaio, preservando leitura e finais; pode produzir mais erros de sentido. [Notas da versão](RELEASE-NOTES.md) · [QA do pacote](QA-0.7.1.md).
