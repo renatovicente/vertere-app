@@ -1,1 +1,1 @@
-f50c2668eed99ab0aed2b176469b9c187d4c0bf4825c9f7f81949db08c5105cc  Vertere-0.7.1-Apple-Silicon.pkg
+095b2ec8dd28a1d4b352db562dbdb9cda74bed7fc8582af3ba5041e5dae8a893  Vertere-0.7.2-Apple-Silicon.pkg
