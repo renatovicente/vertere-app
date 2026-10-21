@@ -1,14 +1,12 @@
-# Vertere 0.6.1 — legendas e proteção contextual de nomes
+# Vertere 0.7.0 — velocidade das legendas e agrupamento
 
-- Até duas linhas por bloco, tempo reservado para leitura e agrupamento de fragmentos curtos.
-- Ritmos Mais tempo, Equilibrado e Mais ágil.
-- Opção de números em algarismos para português.
-- Prévias cautelosas FR→PT com cache e reaproveitamento exato de prévias concluídas.
-- Proteção contextual de Barthes e da grafia Claudia; Bart não é substituído indiscriminadamente.
-- QA do pacote: 81 testes do pipeline e 17 do motor, executados com o Python e módulos extraídos do instalador. Cenários Swift de exibição também aprovados.
+- Novo ajuste de velocidade: Mais fiel, Equilibrado e Mais rápido, separado do ritmo de leitura.
+- Equilibrado é o padrão para novas preferências. Escolhas salvas são respeitadas; prévias cautelosas anteriores migram para Mais fiel.
+- Blocos menores, com até duas linhas, agrupamento com início de frase longa e contexto para sufixos curtos.
+- Modo rápido aceita prévias somente com a tela livre; finais são preservados. Antecipa a tradução, mas não garantiu menor atraso de exibição nos testes e pode produzir erros de sentido.
+- Proteção contextual de nomes e números em algarismos mantidos.
+- QA: 100 testes Python aprovados nos módulos extraídos do instalador, além dos cenários Swift. Ícones, dependências arm64 e checksum conferidos.
 
-O erro real “Barthes → Bart” ainda não foi localizado no áudio. As regras de nomes foram testadas com exemplos sintéticos; o replay dos trechos anteriores preservou todas as respostas. Não houve nova inferência nesta rodada de empacotamento.
+Versão experimental, com assinatura ad hoc, sem Developer ID Installer ou notarização Apple. M4 com 16 GB ainda não homologado; ensaios em M4 Pro com 24 GB. Microfone/projetor em ambiente real e instalação em outro Mac continuam pendentes.
 
-Versão experimental, com assinatura ad hoc e sem notarização Apple ou Developer ID Installer. M4 com 16 GB ainda não homologado; ensaios em M4 Pro com 24 GB. Instalação em outro Mac, microfone e projeção em tela cheia continuam pendentes.
-
-Os modelos são baixados na primeira preparação (cerca de 6,3 GB); a inferência é local. Consulte o README antes de instalar.
+O pacote inclui os runtimes; a primeira preparação baixa cerca de 6,3 GB de modelos. A inferência é local.
