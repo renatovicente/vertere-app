@@ -8,9 +8,9 @@ Este repositório distribui somente o instalador compilado, instruções e aviso
 
 ## Download
 
-[Baixar Vertere 0.7.2 para Apple Silicon (.pkg)](https://github.com/renatovicente/vertere-app/releases/download/v0.7.2/Vertere-0.7.2-Apple-Silicon.pkg)
+[Baixar Vertere 0.10.5 para Apple Silicon (.pkg)](https://github.com/renatovicente/vertere-app/releases/download/v0.10.5/Vertere-0.10.5-Apple-Silicon.pkg)
 
-[Todos os arquivos da versão e checksum SHA-256](https://github.com/renatovicente/vertere-app/releases/tag/v0.7.2)
+[Todos os arquivos da versão e checksum SHA-256](https://github.com/renatovicente/vertere-app/releases/tag/v0.10.5)
 
 **Versão experimental, sem notarização Apple.** O aplicativo tem assinatura local ad hoc; o pacote não tem assinatura Developer ID Installer. O macOS pode bloquear ou solicitar autorização para a instalação/abertura. Se você decidiu instalar esta versão, use as opções apresentadas pelo macOS em Ajustes do Sistema → Privacidade e Segurança. Não é necessário desativar globalmente as proteções do sistema.
 
@@ -27,7 +27,7 @@ Este repositório distribui somente o instalador compilado, instruções e aviso
 
 1. Encerre qualquer versão anterior do Vertere.
 2. Abra o `.pkg` e conclua a instalação. O aplicativo fica em `/Applications/Vertere.app`.
-3. Abra o Vertere, selecione os idiomas e clique em **Iniciar sessão**. Autorize o microfone quando solicitado.
+3. Abra o Vertere, selecione os idiomas e escolha **Microfone** ou **Áudio do sistema** e clique em **Iniciar sessão**. Autorize a captura correspondente quando solicitado.
 4. Na primeira sessão, aguarde a preparação dos modelos indicada na interface. O aplicativo confere SHA-256 dos arquivos. Se interromper, inicie novamente para retomar o download.
 5. Quando o status indicar que está ouvindo, fale no microfone padrão do Mac. A captura só começa após o carregamento dos modelos.
 6. Escolha o monitor/projetor, abra seu PDF ou apresentação e ajuste posição, fonte, cores e fundo das legendas.
@@ -47,6 +47,8 @@ Os pesos são baixados das fontes acima, não estão no instalador. Os avisos de
 
 Encerre o Vertere e remova o aplicativo de Aplicativos. Para liberar o espaço dos modelos, remova também `~/Library/Application Support/Vertere/Models` pelo Finder. As preferências de aparência e idiomas são armazenadas pelo macOS separadamente.
 
-## Novidades 0.7.2
+## Novidades 0.10.5
 
-Equilibrado continua padrão. O modo Rápido reduz cortes e erros de sentido e agrupa finais de uma palavra, preservando o tempo de leitura. O app mostra versão e build junto ao nome. [Notas da versão](RELEASE-NOTES.md) · [QA do pacote](QA-0.7.2.md).
+Equilibrado continua padrão. Inclui áudio do sistema, exportação de sessão em PDF bilíngue/SRT/WebVTT e Incremental opcional. As legendas protegem números por extenso e reduzem fragmentos estreitos, preservando os finais e o tempo de leitura. O Incremental FR → PT inclui correções contextuais de expressões. Não garante atraso máximo de 2 segundos.
+
+[Notas da versão](RELEASE-NOTES.md) · [QA do pacote](QA-0.10.5.md).
